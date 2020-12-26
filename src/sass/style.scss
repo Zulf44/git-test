@@ -1,0 +1,29 @@
+@import url(blocks/_promo.scss);
+@import url(blocks/_header.scss);
+@import url(base/_variables.scss);
+@import url(base/_mixins.scss);
+
+.PromoHeaderButton {
+   width: 150px;
+   height: 30px;
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 8px;
+   margin-left: auto;
+}
+.button {
+   display: block;
+   background-color: #c70101;
+   color: #ffffff;
+}
+
+.container {
+   max-width: 945px;
+   margin: 0 auto;
+}
