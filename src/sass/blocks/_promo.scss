@@ -1,6 +1,86 @@
 .promo {
    background-image: url(../../img/bg1.png);
    min-height: 650px;
-   padding-top: 24px;
-   padding-bottom: 93px;
+   padding-top: 20px;
+
+   &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 90px;
+   }
+   &__title-h1 {
+      color: #ffffff;
+      font-size: 42px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: right;
+      text-transform: uppercase;
+      /* Text style for "П, одбор п" */
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      span {
+         display: block;
+         color: #ffffff;
+         font-size: 24px;
+         font-weight: 500;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: normal;
+         text-align: right;
+         text-transform: uppercase;
+         margin-top: 10px;
+      }
+   }
+   &__icons {
+      display: flex;
+      height: 96px;
+      width: 424px;
+      justify-content: space-between;
+      margin-top: 70px;
+   }
+   &__icon {
+      height: 96px;
+      width: 106px;
+      h3 {
+         margin-top: 20px;
+         text-align: center;
+         color: #ffffff;
+         font-size: 14px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: normal;
+         text-align: center;
+      }
+      img {
+         display: block;
+         margin: 0 auto;
+      }
+   }
+   &__catalog-link {
+      margin-top: 18px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: right;
+
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      a {
+         font-weight: 500;
+         text-decoration: underline;
+         color: #ffffff;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: normal;
+      }
+   }
 }
