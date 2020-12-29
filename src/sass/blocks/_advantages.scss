@@ -21,7 +21,7 @@
          display: block;
          margin: 0 auto;
       }
-      max-width: 239px;
+      max-width: 240px;
       height: 231px;
    }
    &__icon-title {
@@ -36,12 +36,21 @@
    }
    &__icon-subtitle {
       margin-top: 25px;
+
+      font-family: "Museo Sans 300 Light";
       color: #0d0d0d;
       font-size: 14px;
-      font-weight: 300;
+
       font-style: normal;
       letter-spacing: normal;
       line-height: normal;
       text-align: center;
+      span {
+         color: #ff0000;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: normal;
+         text-decoration: underline;
+      }
    }
 }
